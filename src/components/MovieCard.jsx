@@ -9,8 +9,6 @@ const MovieCard = ({ movie }) => {
       key={movie.title}
       style={{
         textDecoration: "none",
-        color: "#1976d2",
-        fontWeight: "bold",
         display: "flex",
         alignItems: "stretch",
       }}

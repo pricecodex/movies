@@ -41,6 +41,7 @@ class MovieStore {
   };
 
   fetchMovieTrailerId = async (id) => {
+    this.currentMovieTrailerId = null;
     try {
       const response = await api.get(`/movie/${id}/videos`);
       const trailer = response.data.results.find((video) => video.type === "Trailer");
