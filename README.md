@@ -5,7 +5,7 @@
 - React
 - React Router Dom
 - MobX
-- AntD
+- MUI
 - Axios
 
 ![Demo](./public/demo1.png)
